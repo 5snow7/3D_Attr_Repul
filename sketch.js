@@ -12,9 +12,9 @@ frameRate(5);
 }
 
 function draw() {
- if(bg_OnOff==1){background(220,0,0,100);}
-  if(bg_OnOff==2){background(220,200,0,100);}
-   else{background(0,250,250,50);}
+ if(bg_OnOff==1){background(220,0,0);}
+  if(bg_OnOff==2){background(0,200,0);}
+   if(bg_OnOff!=1&&bg_OnOff!=2){background(0,0,250);}
   //sphere(50);
 sun1.display();sun2.display();darksun1.display();
   //darksun2.display();p1.repul(darksun2);
