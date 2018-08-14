@@ -15,7 +15,7 @@ function draw() {
  if(bg_OnOff==1){background(220,0,0);}
   if(bg_OnOff==2){background(0,200,0);}
 if(bg_OnOff==3){background(250,200,0);}	
-   if(bg_OnOff!=1&&bg_OnOff!=2&&bg_OnOff!=3){background(0,0,250);}
+   if(bg_OnOff!=1&&bg_OnOff!=2&&bg_OnOff!=3){background(0,0,240);}
   //sphere(50);
 sun1.display();sun2.display();darksun1.display();
   //darksun2.display();p1.repul(darksun2);
