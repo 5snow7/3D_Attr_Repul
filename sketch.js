@@ -7,7 +7,7 @@ function setup() { bg_OnOff=1;plsize=20;
   can.class('bad');
 	 setup1();
   start1();
-  //start2();
+  can.mousePressed(chgbg);
 frameRate(5);
 }
 
@@ -31,3 +31,6 @@ function mousePressed(){
   if(ch%2==1){noLoop();}
 ch++;
              }
+function chgbg(){
+background(floor(random(250)),floor(random(250)),floor(random(250)));	
+}
