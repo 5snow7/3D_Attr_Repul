@@ -33,5 +33,5 @@ function mousePressed(){
 ch++;
 }
 function chgbg(){
-bg_OnOff=4;
+bg_OnOff=floor(random(4));
 }
