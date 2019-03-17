@@ -4,7 +4,7 @@ setup2=function(){
   }
 let inpbg,inpsize,pbg,psize;
 
-start1=function(){
+function start1(){
  p1=new planet(20,10);
   sun1=new sun(-100,100,50,30);
   sun2=new sun(200,200,-200,40);
@@ -23,7 +23,7 @@ inpbg.style("width: 20px");inpsize.style("width: 20px");
 inpbg.changed(chgbg);inpsize.changed(chsize);
 }
 
-start2=function(){
+function start2(){
  p1=new planet(50,50,0);
   sun1=new sun(300,200,0,30);
   sun2=new sun(900,200,0,40);
